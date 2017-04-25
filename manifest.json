@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "webRequestLogger",
+  "version": "1.0.0",
+  "description": "Logs webRequests",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "<all_urls>"
+  ]
+}
